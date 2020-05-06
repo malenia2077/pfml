@@ -1,0 +1,11 @@
+<!--pages/examAfter/examAfter.wxml-->
+<view class="testDetail">
+<view class="imgBox">
+<image src="/icon/info.png" style="width:100px;height:100px;"/>
+<label>共{{allNum}}道题，还有{{noNum}}道未作答</label>
+</view>
+<view class="testBtn">
+<view class="select-cart cartBtn L" bindtap="lookCard">查看答题卡</view>
+<view bindtap='subAswData' class="submit-cart cartBtn R">交卷</view>
+</view>
+</view>

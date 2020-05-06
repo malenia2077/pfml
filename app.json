@@ -1,0 +1,50 @@
+{
+  "pages": [  
+    "pages/test/test",
+    "pages/index/index", 
+     "pages/examAsw/examAsw", 
+     "pages/examAfter/examAfter",
+     "pages/aswCard/aswCard",
+     "pages/examAfterTip/examAfterTip",
+     "pages/examAnalysisAll/examAnalysisAll",
+     "pages/examAnalysis/examAnalysis",
+    "pages/lesson/lesson","pages/lesson2/a1","pages/lesson2/a2","pages/lesson2/a3",
+    "pages/error/error"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#86E3CE",
+    "navigationBarTitleText": "普法目录",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#D3E7EE"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/home.png",
+        "selectedIconPath": "icon/home_fill.png"
+      },
+      {
+        "pagePath": "pages/lesson/lesson",
+        "text": "学一学",
+        "iconPath": "icon/lesson.png",
+        "selectedIconPath": "icon/lesson_fill.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "练一练",
+        "iconPath": "icon/test.png",
+        "selectedIconPath": "icon/test_fill.png"
+      }
+    ],
+    "color": "#0094ff",
+    "selectedColor": "8A5082",
+    "backgroundColor": "#BEF2E5"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

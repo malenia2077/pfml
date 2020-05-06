@@ -1,0 +1,22 @@
+<!--pages/lesson2/a3.wxml-->
+<view class="content">
+    <view class="author-date">   
+        <text class="date">2020年4月26日</text>
+        </view>
+        <!-- 标题内容 -->
+         <text class="title">著作权侵权的主要表现形式有哪些 </text>
+         <image class="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587907892607&di=19a12b58d45c287b38c403cd0f3e5bcb&imgtype=0&src=http%3A%2F%2Fimg3.iyiou.com%2FThinkTank%2F2018%2FAIlaw_1920.jpg"></image>
+         <text class="article-content" id="t1">一、著作权侵权的主要表现形式有哪些\n</text>
+         <text class="article-content">1、未经著作权人许可，复制发行其文字作品、音乐、电影、电视、录象作品、计算机软件及其他作品。\n</text>
+         <text class="article-content">2、出版他人享有专有出版权的图书。出版，是指将作品编辑加工后，经过复制向公众发行。根据著作权法的规定，图书出版者对著作权人交付出版的作品，在合同约定期间享有专有出版权。\n</text>
+         <text class="article-content">3、未经录音录象制作者许可，复制发行其制作的录音录象。录音录象制作者，是指录音录象制品的首次制作人。\n</text>
+         <text class="article-content">4、制作、出售假冒他人署名的美术作品。成立本罪还要求违法所得数额较大或者有其他严重情节，违法所得数额较大是犯罪客观要件的内容。\n\n</text>
+         <text class="article-content" id="t2">二、侵犯著作权的刑事责任是什么\n</text>
+         <text class="article-content">依刑法规定，侵犯著作权应承担下列刑事责任：\n</text>
+         <text class="article-content">刑法第二百一十七条规定：以营利为目的，有下列侵犯著作权情形之一，违法所得数额较大或者有其他严重情节的，处三年以下有期徒刑或者拘役，并处或者单处罚金;违法所得数额巨大或者具有其他特别严重情节的，处三年以上七年以下有期徒刑，并处罚金：\n</text>
+         <text class="article-content">1、未经著作权人许可，复制发行其文字作品、音乐、电影、电视、录像作品、计算机软件及其他作品 的;\n</text>
+         <text class="article-content">2、出版他人享有专有出版权的图书的;\n</text>
+         <text class="article-content">3、未经录音录像制作者许可，复制发行其制作的录音录像的;\n</text>
+         <text class="article-content">4、制作、出售假冒他人署名的美术作品的。\n</text>
+         <text class="article-content">凡行为人实施了《著作权法》第四十五条和第四十六条所规定的行为，侵犯了他人的著作权造成财产或者非财产的损失，都属于对著作权的侵权。著作权侵权的行为，既没有征得作者和其他著作权人同意，也不属于合理使用和法定使用的情形，这是对作品的擅自使用，因而是一种违反著作权法的行为。这种侵权行为既可能是对他人著作权人身权造成了损害，也可能是对他人著作权的财产权造成了损害，还可能同时损害他人著作权、人身权和财产权。\n</text>
+</view>

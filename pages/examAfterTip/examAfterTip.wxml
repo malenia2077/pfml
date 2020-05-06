@@ -1,0 +1,46 @@
+<!--pages/examAfterTip/examAfterTip.wxml-->
+<view class="TestBox">
+<view class="accuracyBox">
+<view class="tureBox">
+<text class="truelv">正确率</text>
+<label><text>{{aswAccNum}}</text>%</label>
+</view>
+<view class='cardTip'>
+<view>
+正确率只针对选择题，色卡标注：<text class='tip tip1'></text>正确<text>{{aswTrue}}</text>道题 <text class='tip tip2'></text>错误<text>{{aswFalse}}</text>道题（包含未做）
+</view>
+<view>
+简答题请参考答案评分，色卡标注：<text class='tip tip3'></text>已做<text>{{aswYes}}</text>道题 <text class='tip tip4'></text>未做<text>{{aswNo}}</text>道题
+</view>
+</view>
+<view class="testTit"><text></text>单项选择题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}">
+<block wx:if="{{item.chckType=='1'}}">
+<view class="test-num {{item.trueAsw==item.answerCenter? 'true':'error'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>  
+<view class="testTit"><text></text>多项选择题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}">
+<block wx:if="{{item.chckType=='2'}}">
+<view class="test-num  {{item.trueAsw==item.answerCenter? 'true':'error'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>
+<view class="testTit"><text></text>简答题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}">
+<block wx:if="{{item.chckType=='3'}}">
+<view class="test-num {{!item.answerCenter? '':'yes'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>
+</view>
+<view class="cartBtnBox">
+<view bindtap='examAnalysisAll'  class="continue-btn continue-btn1">查看全部解析</view>
+<view bindtap='examAnalysis' class="continue-btn continue-btn2">查看错题解析</view>
+<view bindtap='test' class="continue-btn continue-btn3">结束答题</view>
+</view>
+</view>

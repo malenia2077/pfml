@@ -1,0 +1,28 @@
+<!--pages/lesson2/a2.wxml-->
+<view class="content">
+
+        <view class="author-date">   
+        <text class="date">2020年4月26日</text>
+        </view>
+        <!-- 标题内容 -->
+         <text class="title">8个生活中最常见的法律常识，每个人都必须知道！</text>
+         <image class="image" mode="aspectFill" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587908928079&di=87d5173a700eb13cb6e6e159c707f8b0&imgtype=0&src=http%3A%2F%2Fimg1.juimg.com%2F170309%2F330865-1F3091GJ934.jpg"></image>
+         <text class="article-content">“法律”两个字，也许在很多人眼里相当神秘\n</text>
+         <text class="article-content">而律师更是令很多人觉得高深莫测\n</text>
+         <text class="article-content">厚重的法律书籍\n</text>
+         <text class="article-content">望不到头的法律条文\n</text>
+         <text class="article-content">让很多人对“法律”望而却步\n</text>
+         <text class="article-content">而法律常识的缺失却会导致很多的不幸\n</text>
+         <text class="article-content">小编为大家总结了8条日常生活中最基础实用的法律常识\n\n</text>
+         <text class="article-content">1.一定要有好朋友是律师。医生、律师应当作为朋友圈中两个最起码的专业人士。现在网络发达，一些专业知识网上都能搜到，但是像医生、律师这样必须学习四五年再加实践三四年才能胜任的专业，行外人处理只能是似是而非甚至南辕北辙，有专业人士指点才不致于因自以为是而走了弯路。\n</text>
+         <text class="article-content">2. 现在智能手机都有录音功能，一些重要的电话（如钱款交易、责任区分、涉法问题），接打电话的同时按下录音键进行录音，并将录音音频及时进行备份。同理，重要短信、微信记录也应进行保存，必要时及时进行公证。\n</text>
+         <text class="article-content">3. 借钱的时候最好都要打借条（丑话说在前头比事后纠纷好），所借钱款最好银行转账，不要现金交付，并保存好银行转账凭单。\n</text>
+         <text class="article-content">4. 非至亲至友尽量不要提供担保，实在需要担保尽量写明承担一般保证责任而不要承担连带保证责任。\n</text>
+         <text class="article-content">5.身份证复印件在重要信息处应手写加注：“此复印件仅用于×××”，防止被不法分子盗用。\n</text>
+         <text class="article-content">6.签署合同对其中“标的、数量、质量、价款、履行期限、违约责任”等重要条款一定要仔细查看，最好请专业人士把关审查，防止因合同疏忽而导致自己损失。\n</text>
+         <text class="article-content">7.遇到执法部门执法，你有权要求查验相关证件，如果没有提供相关证件，你有权拒绝接受且视情况选择报警处理。交警部门中的协警不具有执法权。执法部门罚款一般不得当场收取，只能由违法行为人前往指定地点缴纳。但是20元以下罚款或者治安处罚50元以下且当事人无异议情况下可以当场收缴。当场收缴的必须出具省级财政部门统一制定的罚款收据，否则可以直接拒绝接受罚款。\n</text>
+         <text class="article-content">8.遇到权益受侵害的一般处理程序：\n</text>
+         <text class="article-content">（1）属于民事案件范围：收集保全证据——委托或咨询专业人士——双方调解——（调解不成）起诉——法院审理判决——执行。\n</text>
+         <text class="article-content">（2）属于刑事案件范围：报案——公安立案侦查——移送检察机关审查起诉——检察机关提起公诉——法院审理判决。（如果公安或检察机关不予追究责任，符合自诉案件条件的，当事人可以直接向法院提起自诉。刑事案件也要尽早委托律师，方能最大限度保护自身权益。）\n</text>
+         <text class="article-content">（3）属于行政案件范围：收集保全证据——委托或咨询专业人士——属于复议前置的申请行政复议——（不服复议结果）提起诉讼——法院审理判决。\n</text>
+</view>

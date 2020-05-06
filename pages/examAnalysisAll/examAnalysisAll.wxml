@@ -1,0 +1,44 @@
+<!--pages/examAnalysisAll/examAnalysisAll.wxml-->
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}">
+<view class='exasw-com'>
+<view class="cont-tit">
+<view class="L" wx:if="{{item.chckType==1}}">单项选择</view>
+<view class="L" wx:if="{{item.chckType==2}}">多项选择</view>
+<view class="L" wx:if="{{item.chckType==3}}">简单题</view>
+</view>
+<view class='exam-com'>
+<view class='exam-title'>
+{{item.aswTitle}}<text> {{item.aswType}}</text>
+</view>
+<block wx:if="{{item.chckType==1}}">
+<radio-group class="radio-group">
+<label class="radio change-item" wx:for="{{item.aswItem}}" wx:for-item="item2">
+<radio value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}" />{{item2.text}}
+</label>
+</radio-group>
+</block>
+<block wx:if="{{item.chckType==2}}">
+<checkbox-group  class="checkbox-group">
+<label class="checkbox change-item" wx:for-items="{{item.aswItem}}" wx:for-item="item2">
+<checkbox value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}"/>{{item2.text}}
+</label>
+</checkbox-group>
+</block>
+<view class='exam-bottom'>
+<view class='exam-bootom-txt'>
+<view wx:if="{{item.chckType==3}}">
+您的答案：<text class='exam-you'>未填写</text>
+</view>
+<view wx:else>
+正确答案：<text class='exam-yes'>{{item.trueAsw}}</text>
+您的答案：<text class='exam-you'>{{item.answerCenter}}</text>
+</view>
+</view>
+<view class='exam-bootom-tip'>
+<text>答案解析：</text>
+<label>{{item.analysisTxt}}</label>
+</view>
+</view>
+</view>
+</view>
+</block>

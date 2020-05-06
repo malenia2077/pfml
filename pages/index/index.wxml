@@ -1,0 +1,44 @@
+<!--index.wxml-->
+
+<!-- 学法日志 -->
+<swiper autoplay interval="2000" circular
+indicator-dots indicator-color="#0094ff"
+indicator-active-color="#ff0094"
+>
+
+<navigator url="#" open-type="navigate">
+<swiper-item>
+<image mode="widthFix"  src="https://ae01.alicdn.com/kf/Hbaef550ea7bb4ace90d80555ceb2d7e9U.jpg"  />
+</swiper-item>
+</navigator>    
+
+ <navigator url="#" open-type="navigate">
+ <swiper-item>    
+ <image mode="widthFix" src="https://ae01.alicdn.com/kf/H4d2e88385c334c8eac81aba90dc56da2V.jpg"/>
+ </swiper-item>
+ </navigator>
+
+ <navigator url="#" open-type="navigate">
+ <swiper-item>   
+ <image mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1588778817860&di=1ce7a8ba7d67e5ba7f4bb0b0bc51c792&imgtype=0&src=http%3A%2F%2Fdingyue.ws.126.net%2FJHB7nZgV9grSDsWoVQJY05GEqadAHGlB7pb3uzRVVtTgy1563261632816compressflag.jpg"/>
+</swiper-item>
+ </navigator>
+</swiper>
+
+<view class="top">
+    <text class="iconfont iconlist">写在前面</text>
+</view>
+  
+
+<view class="post-container">
+  <view class="post-author-date">
+  <text>2020年4月25日</text>
+  </view>
+  <text class="post-title">为什么要普及法律知识</text>
+  <text class="post-content">公民学习法律常识是具有非常重要的意义的。
+    可以从以下几个方面来说明：</text>
+  <text class="post-content">第一，学法才能知法、懂法、用法。</text>
+  <text class="post-content">第二，学法才能培养社会主义法律意识。</text>
+  <text class="post-content">第三，学法是做到守法的必要前提。</text>
+  <text class="post-content">可见，不学习国家法律，没有法律常识的人，就不会有自觉守法的观念，就难免做出违法以至犯罪的事情来。所以我们要想做一个知法、懂法、自觉守法的好公民，必须要学习法律常识，把学法、增强守法观念列入自己的议事日程，作为自己生活中一项不可缺少的内容。</text>
+</view>

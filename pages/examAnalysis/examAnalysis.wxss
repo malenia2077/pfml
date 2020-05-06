@@ -1,0 +1,22 @@
+/* pages/examAnalysis/examAnalysis.wxss */
+.L,.R,.fl,.fr{display:inline;}
+.L ,.fl{float:left;}
+.R ,.fr{float:right;}
+.aswNum{text-align: right;}
+.exasw-com{padding: 10px 20px;}
+.cont-tit{font-size: 14px;color: #666; padding-bottom: 5px; border-bottom: 1px solid #ccc;clear: both;overflow: hidden;}
+.cont-tit text{font-size: 20px;font-weight: bold;color: #2F99EB;}
+.cont-tit view{width: 49%;}
+.asw-box{ font-size: 14px;}
+.exam-com{clear: both; padding-top: 10px;}
+.exam-title{color: #333;line-height: 25px;}
+.exam-title text{font-size: 12px;color: #999;}
+.change-radio,.change-item{display: block;clear: both; padding: 5px 10px }
+.exam-bottom{font-size: 14px;color: #666;}
+.exam-bottom .exam-bootom-txt{clear: both;padding: 10px 0;}
+.exam-bootom-txt text{font-weight: bold; padding-right: 20px;}
+.exam-bootom-txt .exam-yes{color: #00CC00;}
+.exam-bootom-txt .exam-you{color: #f00;}
+.exam-bootom-tip{clear: both;}
+.exam-bootom-tip text{font-weight: bold; font-size: 14px;}
+.exam-bootom-tip label{padding:10px 0; text-indent: 10px;line-height: 25px;font-size: 12px; display: block;}

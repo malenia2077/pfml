@@ -1,0 +1,38 @@
+<!--pages/aswCard/aswCard.wxml-->
+<view class="TestBox">
+<view class="accuracyBox">
+<view class='cardTip'>
+色卡提示：<text class='tip tip1'></text>未做<text>{{aswNo}}</text>道题
+<text class='tip tip2'></text>已做<text>{{aswYes}}</text>道题
+</view>
+<view class="testTit"><text></text>单项选择题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}">
+<block wx:if="{{item.chckType=='1'}}">
+<view class="test-num {{!item.answerCenter? '':'true'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>  
+<view class="testTit"><text></text>多项选择题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}">
+<block wx:if="{{item.chckType=='2'}}">
+<view class="test-num {{!item.answerCenter? '':'true'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>
+<view class="testTit"><text></text>简答题</view>
+<view class="cartNum">
+<block wx:for="{{subAswData}}">
+<block wx:if="{{item.chckType=='3'}}">
+<view class="test-num {{!item.answerCenter? '':'true'}} L">{{index+1}}</view>
+</block>
+</block>
+</view>
+</view>
+ 
+<view class="cartBtnBox">
+<view bindtap='returnBackAsw'  class="continue-btn continue-btn1">继续练习</view>
+<view bindtap='subAswData' class="continue-btn continue-btn2">交卷</view>
+</view>
+</view>

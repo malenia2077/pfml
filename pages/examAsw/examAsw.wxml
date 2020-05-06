@@ -1,0 +1,70 @@
+<!--pages/examAsw/examAsw.wxml-->
+<view class='exasw-com'>
+<view class="cont-tit">
+<view class="L a-tit">
+<label wx:if="{{chckTypeNum==1}}"> 单项选择 </label>
+<label wx:if="{{chckTypeNum==2}}"> 多项选择 </label>
+<label wx:if="{{chckTypeNum==3}}"> 简答题 </label>
+</view>
+<view class='L setTime'>
+<text>{{currentTime}}</text>
+</view>
+<view class="R aswNum"><text>{{currentTab+1}}</text>/{{page}}</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" class='asw-box' bindchange="swiperTab" style='min-height:600px;'>
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}">
+<swiper-item>
+<view class='exam-com'>
+<view class='exam-title'>
+{{item.aswTitle}}<text> {{item.aswType}}</text>
+</view>
+<block wx:if="{{item.chckType==1}}">
+<radio-group class="radio-group" bindchange="radioChange"  data-idx="{{index}}">
+<label class="radio change-item" wx:for="{{item.aswItem}}" wx:key="{{item.aswId}}" wx:for-item="item2">
+<radio value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}" />{{item2.text}}
+</label>
+</radio-group>
+</block>
+<block wx:if="{{item.chckType==2}}">
+<checkbox-group  class="checkbox-group" bindchange="checkboxChange"  data-idx="{{index}}">
+<label class="checkbox change-item" wx:for-items="{{item.aswItem}}" wx:key="{{item.aswId}}" wx:for-item="item2" data-index="{{index}}" >
+<checkbox value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}"/>{{item2.text}}
+</label>
+</checkbox-group>
+</block>
+<block wx:if="{{item.chckType==3}}">
+<textarea class='aswTarea' maxlength="-1" bindinput="bindTextAreaBlur" auto-height placeholder="填写你的答案" data-idx="{{index}}"/>
+</block>
+</view>
+</swiper-item>
+</block>
+</swiper>
+</view>
+<view class='page-footer'>
+
+<view class='footer-btn-box'>
+<view class='footer-btn'  bindtap="actionSheetTap">答案解析</view>
+<view class='footer-btn on' bindtap="subAswData">提交答卷</view>
+</view>
+
+</view>
+ 
+<action-sheet hidden="{{actionSheetHidden}}" style="z-index: 999; ">
+<block wx:for="{{analysisData}}" wx:key="{{analysisData.aswId}}" wx:for-index="indnum">
+<view class='exam-com'>
+<view class='exam-bottom'>
+<view class='exam-bootom-txt'>
+正确答案：<text class='exam-yes'>{{item.trueAsw}}</text>
+</view>
+<view class='exam-bootom-tip' >
+<text>答案解析：</text>
+<label>{{item.analysisTxt}}</label>
+</view>
+</view>
+</view>
+</block>
+ 
+<view class="closeAsw"  bindtap="actionSheetTap">
+<image src="/icon/close.png" style='width:30px;height:30px;'/>
+</view>
+</action-sheet>

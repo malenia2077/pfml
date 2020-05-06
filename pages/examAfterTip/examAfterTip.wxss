@@ -1,0 +1,32 @@
+/* pages/examAfterTip/examAfterTip.wxss */
+.TestBox{padding: 10px 20px;font-size: 14px;}
+ 
+.cardTip{ background-color:#f8f3ed;padding: 10px;line-height: 25px; color: #666; margin-top: 20px;}
+.cardTip view{padding-bottom: 10px;}
+.cardTip text{color: #2F99EB;}
+.cardTip .tip{display: inline-block;width: 12px;height: 12px;border-radius: 50%;}
+.cardTip .tip1{border:1px solid #40D496;background: #40D496;}
+.cardTip .tip2{border:1px solid #FC5D5A;background: #FC5D5A; margin-left: 5px;}
+.cardTip .tip3{border:1px solid #2F99EB;background: #2F99EB;}
+.cardTip .tip4{border:1px solid #ccc; margin-left: 5px;}
+ 
+.TestBox .tureBox{width: 100px;height: 100px;border:1px solid #E6E6E6;border-radius: 50%;text-align: center;font-size: 16px;color: #A3A3A3; margin: 0 auto; margin-top: 30px;}
+.TestBox .tureBox .truelv{display:  block;padding-top: 30px;}
+ 
+.TestBox .testTit{clear: both;overflow: hidden;font-size: 18px;color: #333; padding: 10px 0;}
+.TestBox .testTit label{border: 2px solid #2F99EB;margin-right: 15px;}
+.TestBox .cartNum{clear: both;overflow: hidden;font-size: 16px;}
+.TestBox .cartNum .test-num{border: 1px solid #ccc;width: 30px;height: 30px;line-height: 30px; text-align: center;border-radius: 50%;color: #2F99EB;float: left; margin: 5px;}
+.TestBox .cartNum .test-num.yes{background: #2F99EB;color: #fff;border: 1px solid #2F99EB;}
+.TestBox .cartNum .test-num.true{background: #40D496;color: #fff;border: 1px solid #40D496;}
+.TestBox .cartNum .test-num.error{background: #FC5D5A;color: #fff;border: 1px solid #FC5D5A;}
+ 
+.TestBox .cartBtnBox{clear: both; bottom:0px; height:50px;left:0px; width:400px;background-color: #86E3CE; position: fixed}
+ 
+ 
+.TestBox .cartBtnBox .continue-btn{color: #fff;height: 40px;line-height: 40px;text-align: center; width: 28%; margin-top: 5px}
+.TestBox .continue-btn1{float: left; border-radius: 8%; margin-left: 5px; background: rgb(47, 182, 235);}
+.TestBox .continue-btn2{float: left; border-radius: 8%; margin-left: 10px;background: rgb(47, 182, 235);}
+.TestBox .continue-btn3{float: left; border-radius:8%; background:#576b95; margin-left: 15px }
+
+

@@ -1,0 +1,21 @@
+/* pages/aswCard/aswCard.wxss */
+.TestBox{padding: 10px 20px;font-size: 14px; height: 670px;}
+.cardTip{padding: 10px 0;clear: both; color: #999; line-height: 20px;}
+.cardTip text{color: #2F99EB;}
+.cardTip .tip{display: inline-block;width: 12px;height: 12px;border-radius: 50%;}
+.cardTip .tip1{border:1px solid #ccc;}
+.cardTip .tip2{border:1px solid #40D496;background: #40D496; margin-left: 20px;}
+.TestBox .testTit{clear: both;overflow: hidden;font-size: 18px;color: #333; padding: 10px 0;}
+.TestBox .testTit label{border: 2px solid #2F99EB;margin-right: 15px;}
+.TestBox .cartNum{clear: both;overflow: hidden;font-size: 16px;}
+.TestBox .cartNum .test-num{border: 1px solid #ccc;width: 30px;height: 30px;line-height: 30px; text-align: center;border-radius: 50%;color: #2F99EB;float: left; margin: 5px;}
+.TestBox .cartNum .test-num.yes{background: #2F99EB;color: #fff;border: 1px solid #2F99EB;}
+.TestBox .cartNum .test-num.true{background: #40D496;color: #fff;border: 1px solid #40D496;}
+.TestBox .cartNum .test-num.error{background: #FC5D5A;color: #fff;border: 1px solid #FC5D5A;}
+ 
+.TestBox .cartBtnBox{clear: both;padding: 10px 0; width:380px; height:120px; position: fixed; bottom: 0px; left:0px;}
+ 
+ 
+.TestBox .cartBtnBox .continue-btn{border-radius: 8px;line-height: 50px;text-align: center;width:120px;}
+.TestBox .continue-btn1{ position:fixed; left:30px; background: #2F99EB;color: #fff}
+.TestBox .continue-btn2{ position:fixed; right:30px; background-color: #E6E6E6;color: #2F99EB;}

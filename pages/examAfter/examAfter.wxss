@@ -1,0 +1,8 @@
+/* pages/examAfter/examAfter.wxss */
+.testDetail{clear: both;font-size: 14px;padding: 10px 20px;}
+.testDetail .imgBox{clear: both; text-align: center;overflow: hidden; padding-top: 50px; line-height: 30px;}
+.testDetail .imgBox image{margin: 0 auto; display: block;}
+.testDetail .testBtn{clear: both; padding-top: 40px;}
+.testDetail .testBtn .cartBtn{width: 49%;height: 55px;line-height: 55px;text-align: center;border-radius: 4px}
+.testDetail .testBtn .select-cart{background: #2F99EB;color: #fff;float: left;}
+.testDetail .testBtn .submit-cart{border:1px solid #E6E6E6;color: #2F99EB;float: right;}

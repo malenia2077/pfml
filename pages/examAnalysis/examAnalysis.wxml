@@ -1,0 +1,56 @@
+<!--pages/examAnalysis/examAnalysis.wxml-->
+<view class='exasw-com'>
+<view  wx:if="{{page>0}}">
+<view class="cont-tit">
+<view class="L">
+<label wx:if="{{chckTypeNum=='1'}}"> 单项选择 </label>
+<label wx:if="{{chckTypeNum=='2'}}"> 多项选择 </label>
+<label wx:if="{{chckTypeNum=='3'}}"> 简答题 </label>
+</view>
+<view class="R aswNum"><text>{{currentTab+1}}</text>/{{page}}</view>
+</view>
+<swiper current="{{currentTab}}" duration="300" class='asw-box' bindchange="swiperTab" style='min-height:600px;'>
+<block wx:for="{{subAswData}}" wx:key="{{subAswData.aswId}}" wx:for-index="indnum">
+<swiper-item>
+<view class='exam-com'>
+<view class='exam-title'>
+{{item.aswTitle}}<text> {{item.aswType}}</text>
+</view>
+<block wx:if="{{item.chckType==1}}">
+<radio-group class="radio-group">
+<label class="radio change-item" wx:for="{{item.aswItem}}" wx:for-item="item2">
+<radio value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}" />{{item2.text}}
+</label>
+</radio-group>
+</block>
+<block wx:if="{{item.chckType==2}}">
+<checkbox-group  class="checkbox-group">
+<label class="checkbox change-item" wx:for-items="{{item.aswItem}}" wx:for-item="item2">
+<checkbox value="{{item2.value}}" name="{{item2.name}}" checked="{{item2.checked}}"/>{{item2.text}}
+</label>
+</checkbox-group>
+</block>
+<view class='exam-bottom'>
+<view class='exam-bootom-txt'>
+<view wx:if="{{item.chckType==3}}">
+您的答案：<text class='exam-you'>未填写</text>
+</view>
+<view wx:else>
+正确答案：<text class='exam-yes'>{{item.trueAsw}}</text>
+您的答案：<text class='exam-you'>{{item.answerCenter}}</text>
+</view>
+</view>
+<view class='exam-bootom-tip'>
+<text>答案解析：</text>
+<label>{{item.analysisTxt}}</label>
+</view>
+</view>
+</view>
+</swiper-item>
+</block>
+</swiper>
+</view>
+<view wx:else>
+你真棒，没有错误喔！
+</view>
+</view>

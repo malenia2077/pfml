@@ -1,0 +1,43 @@
+<navigator url="/pages/lesson2/a1">
+        <view class="content">
+        <view class="author-date">   
+        <text class="date">2020年4月26日</text>
+        </view>
+        <!-- 标题内容 -->
+         <text class="title">你不得不知道的十个法律知识 </text>
+         <image class="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587907892609&di=d6327789197d4564da017d7cc9574628&imgtype=0&src=http%3A%2F%2Fimg1.99114.com%2Fgroup10%2FM00%2F18%2FD7%2FrBADs10S5YOARVk3AAMae8eJLWE597.jpg"></image>
+         <text class="article-content">一、五险一金是哪五险?哪一金?</text>
+         <text class="article-content"> “五险”指的是五种保险,包括养老保险、医疗保险、失业保险、工伤保险和生育保险;“一金”指的是住房公积金。其中...  </text>
+        </view>
+</navigator>
+
+<navigator url="/pages/lesson2/a2">
+    <view class="content">
+
+        <view class="author-date">   
+        <text class="date">2020年4月26日</text>
+        </view>
+        <!-- 标题内容 -->
+         <text class="title">8个生活中最常见的法律常识，每个人都必须知道！</text>
+         <image class="image" mode="aspectFill" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587908928079&di=87d5173a700eb13cb6e6e159c707f8b0&imgtype=0&src=http%3A%2F%2Fimg1.juimg.com%2F170309%2F330865-1F3091GJ934.jpg"></image>
+         <text class="article-content">最基础实用的法律常识</text>
+</view>
+</navigator>
+
+<navigator url="/pages/lesson2/a3">
+<view class="content">
+    <view class="author-date">   
+        <text class="date">2020年4月26日</text>
+        </view>
+        <!-- 标题内容 -->
+         <text class="title">著作权侵权的主要表现形式有哪些 </text>
+         <image class="image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1587907892607&di=19a12b58d45c287b38c403cd0f3e5bcb&imgtype=0&src=http%3A%2F%2Fimg3.iyiou.com%2FThinkTank%2F2018%2FAIlaw_1920.jpg"></image>
+         <text class="article-content">1、未经著作权人许可，复制发行其文字作品、音乐、电影、电视、录象作品、计算机软件及其他作品。</text>
+         <text class="article-content">2、出版他人享有专有出版权的图书。出版...  </text>
+</view>
+</navigator>
+  
+
+
+
+        

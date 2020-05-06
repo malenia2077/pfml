@@ -1,0 +1,58 @@
+/**app.wxss**/
+@import "./styles/iconfont.wxss";
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  font-size: 30px;
+  font-weight: 520;
+  box-sizing: border-box;
+}
+
+/*
+在微信小程序中 不支持通配符 '*'
+*/
+page,view,text,swiper,swiper-item,image,navigator{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* 主题颜色 通过变量来实现
+1 less 中 存在 变量这个知识
+2 原声的css和wxss也是支持 变量
+*/
+page{
+  /* 定义主题颜色 */
+  --themeColor:#86E3CE;
+  /* 定义统一字体大小 假设设计稿 大小是375px
+    1px = 2rpx
+    14px = 28rpx
+  */
+
+}
+text{
+  font-family:Microsoft YaHei;
+}
+.moto-container{
+  border:1px solid #405f80;
+  width:200rpx;
+  height:80rpx;
+  border-radius:5rpx;
+  text-align:center;
+  }
+  .audio{
+    width:102rpx;
+    height:110rpx;
+    position: absolute;
+    left: 50%;
+    margin-left: -51rpx; 
+    /*经典水平居中方式*/
+    top:180rpx;
+    margin-top: 20rpx;
+    opacity:0.6;/*透明度*/
+}

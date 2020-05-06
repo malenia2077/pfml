@@ -1,0 +1,38 @@
+/* pages/examAsw/examAsw.wxss */
+.L,.R,.fl,.fr{display:inline;}
+.L ,.fl{float:left;}
+.R ,.fr{float:right;}
+.aswNum{text-align: right;}
+.exasw-com{padding: 10px 20px;}
+.cont-tit{font-size: 14px;color: #666; padding-bottom: 5px; border-bottom: 1px solid #ccc;clear: both;overflow: hidden;}
+ 
+.cont-tit .a-tit{ width: 40%;}
+.cont-tit .aswNum{ width: 30%;}
+.cont-tit .setTime{position: relative; width: 30%; font-weight: bold;color: #666;font-size: 16px; text-align: center;}
+.cont-tit .sttimg{width: 42px;height: 42px;display: block;}
+.cont-tit .setTime text{display: block;left: 1px;top: 10px; font-size: 14px;color: #2F99EB; position: absolute;}
+ 
+.asw-box{padding-top: 20px; font-size: 14px;}
+.exam-com{clear: both;}
+.exam-title{color: #333;line-height: 25px;}
+.exam-title text{font-size: 12px;color: #999;}
+.change-radio,.change-item{display: block;clear: both; padding: 5px 10px }
+.page-footer{position: fixed;z-index: 99; bottom: 0px; height: 70px;line-height: 50px;padding: 10px 0; background-color: #eee;width: 100%;}
+.footer-item1{width: 50px; float:left;font-size: 12px; line-height: 20px; padding-left: 20px; padding-top: 5px;}
+.footer-item1 image{display: block;}
+.footer-btn-box{ margin-left:75px; width: 240px; background-color: #7ABEF2;height: 50px;color: #fff; margin-bottom: 10px; border-radius: 15px; overflow: hidden;}
+.footer-btn-box .footer-btn{float: left;width: 50%; text-align: center;}
+.footer-btn-box .footer-btn.on{background-color:#2F99EB; }
+.aswTarea{border: 1px solid #ccc; min-height: 60px;padding: 10px;margin: 10px auto; width: 95%;}
+ 
+.exam-com{clear: both;padding: 20px;position: relative;}
+.exam-bottom{font-size: 14px;color: #666;}
+.exam-bottom .exam-bootom-txt{clear: both;padding: 10px 0;}
+.exam-bootom-txt text{font-weight: bold; padding-right: 20px;}
+.exam-bootom-txt .exam-yes{color: #00CC00;}
+.exam-bootom-txt .exam-you{color: #f00;}
+.exam-bootom-tip{clear: both;}
+.exam-bootom-tip text{font-weight: bold; font-size: 14px;}
+.exam-bootom-tip label{padding:10px 0; text-indent: 10px;line-height: 25px;font-size: 12px; display: block;}
+.closeAsw{position: absolute;z-index: 9991;right: 5px; bottom:5px;width: 30px;height: 30px;}
+.closeAsw image{display: block;}
