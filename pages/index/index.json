@@ -1,2 +1,6 @@
 {
+  "usingComponents":{
+    "SearchInput":"../../components/SearchInput/SearchInput"
+  },
+  "navigationBarTitleText":"普法目录"
 }

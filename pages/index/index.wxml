@@ -25,6 +25,8 @@ indicator-active-color="#ff0094"
  </navigator>
 </swiper>
 
+<SearchInput></SearchInput>
+
 <view class="top">
     <text class="iconfont iconlist">写在前面</text>
 </view>

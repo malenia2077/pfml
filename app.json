@@ -1,12 +1,12 @@
 {
   "pages": [  
+    "pages/index/index",  
     "pages/test/test",
-    "pages/index/index", 
      "pages/examAsw/examAsw", 
      "pages/examAfter/examAfter",
      "pages/aswCard/aswCard",
      "pages/examAfterTip/examAfterTip",
-     "pages/examAnalysisAll/examAnalysisAll",
+     "pages/search/index","pages/examAnalysisAll/examAnalysisAll",
      "pages/examAnalysis/examAnalysis",
     "pages/lesson/lesson","pages/lesson2/a1","pages/lesson2/a2","pages/lesson2/a3",
     "pages/error/error"
@@ -39,6 +39,12 @@
         "text": "练一练",
         "iconPath": "icon/test.png",
         "selectedIconPath": "icon/test_fill.png"
+      },
+      {
+        "pagePath": "pages/error/error",
+        "text": "测试",
+        "iconPath": "icon/user.png",
+        "selectedIconPath": "icon/user_fill.png"
       }
     ],
     "color": "#0094ff",
